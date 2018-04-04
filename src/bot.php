@@ -47,6 +47,11 @@ if ($text)
 		]);
 		$telegram->sendMessage([
 			'chat_id'      => $chat_id,
+			'text'         => 'https://vk.com/tonyganso',
+			'reply_markup' => $reply_markup
+		]);
+		$telegram->sendMessage([
+			'chat_id'      => $chat_id,
 			'text'         => 'https://tonyganso.ru',
 			'reply_markup' => $reply_markup
 		]);
