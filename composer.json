@@ -14,8 +14,8 @@
   ],
   "require": {
     "php": "^8.0",
-    "guzzlehttp/guzzle": "~6.0",
-    "illuminate/support": "~5.0",
+    "guzzlehttp/guzzle": "^6.5.7",
+    "illuminate/support": "^5.0",
     "league/event": "^2.1",
     "nesbot/carbon": "^2.0.0"
   },
